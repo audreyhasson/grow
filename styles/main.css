@@ -267,23 +267,6 @@ h1 {
 
 }
 
-/* plantpedia STYLES */
-.plantInfoContainer{
-
-  
-}
-.container .plantPictures img {
-  width: 200px;
-  padding: 1rem 1rem;
-  background-color: #fff;
-  border-radius: 1rem;
-  margin: 1rem 1rem 0 0;
-}
-
-#active {
-  font-style: italic;
-}
-
 .lboard_mem {
   display: flex;
   align-items: center;
@@ -332,4 +315,27 @@ hr {
   background-color:  var(--dark-green);
   border-style: none;
   height: 2px;
+}
+
+/* plantpedia STYLES */
+.container .plantInfoContainer{
+  display:  flex;
+  align-items:vertical;
+  justify-content:flex-start;
+}
+.container .plantInfoBigContainer{
+  display:block;
+}
+.container .plantPictures img {
+  width: 200px;
+  padding: 1rem 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 1rem 1rem 0 0;
+  flex-basis:40%
+}
+.plant
+
+#active {
+  font-style: italic;
 }
