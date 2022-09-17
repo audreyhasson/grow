@@ -274,6 +274,19 @@ h1 {
 
 }
 
+/* plantpedia STYLES */
+.plantInfoContainer{
+
+  
+}
+.container .plantPictures img {
+  width: 200px;
+  padding: 1rem 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 1rem 1rem 0 0;
+}
+
 #active {
   font-style: italic;
 }
