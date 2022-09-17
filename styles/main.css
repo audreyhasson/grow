@@ -121,3 +121,55 @@ h1 {
   margin: 0;
 
 }
+
+/* LEAD STYLES */
+
+*{
+  list-style:none;
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+.lboard_section{
+  width: 1000px;
+  height: 550px;
+  margin:50px auto 0;
+  background:#a3b785;
+  border-radius: 5px;
+  padding: 25px 40px;
+  position:relative;
+}
+.container ul{
+  display: flex;
+
+}
+.container ul li{
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #003d11;
+  cursor: pointer;
+}
+.container ul li:hover,
+.container ul li.active{
+  color: #fff;
+}
+.lboard_wrap{
+  margin:auto
+}
+
+
+.lboard_section .lboard_mem .img{
+    width: 50px;
+
+}
+.lboard_section .lboard_mem .img img{
+  display: block;
+  width:100%;
+  
+}
+
+#active {
+  font-style: italic;
+}
