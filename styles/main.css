@@ -116,6 +116,10 @@ h1 {
   margin: 1rem 1rem 0 0;
 }
 
+.left p.name {
+  text-transform: uppercase;
+}
+
 #clock {
   font-size: 150px;
   margin: 0;
@@ -161,6 +165,9 @@ h1 {
   color: var(--cream);
 }
 
+#reset {
+  display: none;
+}
 /*watercan stuff */
 .rogue-can, .rogue-water {
   position: fixed;
