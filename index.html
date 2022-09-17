@@ -27,6 +27,12 @@
       </ul>
     </div>
   </nav>
+  <div class='rogue-can'>
+    <img src='images/watercan.png' id="can"/>
+  </div>
+  <div class='rogue-water'>
+    <img src='images/water.png' id="droplets"/>
+  </div>
   <div class='container'>
     <div class='left'>
       <img src='images/babyplant.png' class = 'plant-image'/>
@@ -34,12 +40,17 @@
       <p><i>monstera</i></p>
     </div>
     <div class='right'>
-      <p><span id="name">Mark</span> has been alive...</p>
+      <h2><span id="name">Mark</span> has been alive for...</h2>
       <p id="clock">00:00:00</p>
+      <div class='function-buttons'>
+        <p class='button' id="water">water</p>
+        <p class='button' id="rename">rename</p>
+      </div>
     </div>
   </div>
   <footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/buttons.js"></script>
   </footer>
 </body>
 </html>
