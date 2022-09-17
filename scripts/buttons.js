@@ -17,3 +17,14 @@ waterbutton.onclick = function tiltCan() {
   setTimeout(function(){watercan.style.animation = 'none'; watercan.style.display = 'none'}, 4000);
   console.log(waterCount)
 }
+
+//rename MARK
+const renamebutton = document.getElementById('rename');
+let allNames = document.getElementsByClassName("name");
+
+renamebutton.onclick = function getName() {
+  let name = prompt("What would you like to name your plant?")
+  for (let i = 0; i<allNames.length; i++) {
+    allNames[i].innerHTML = name
+  }
+}

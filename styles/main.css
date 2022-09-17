@@ -229,16 +229,8 @@ h1 {
 
 /* LEAD STYLES */
 
-*{
-  list-style:none;
-  margin: 0;
-  padding:0;
-  box-sizing:border-box;
-
-}
 .lboard_section{
   width: 1000px;
-  height: 550px;
   margin:50px auto 0;
   background:#a3b785;
   border-radius: 5px;
@@ -272,7 +264,7 @@ h1 {
 .lboard_section .lboard_mem .img img{
   display: block;
   width:100%;
-  
+
 }
 
 /* plantpedia STYLES */
@@ -290,4 +282,54 @@ h1 {
 
 #active {
   font-style: italic;
+}
+
+.lboard_mem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name_bar span {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.points {
+  align-self: center;
+  float: right;
+}
+
+.lboard_mem p.points {
+  text-align: right;
+}
+
+.lboard-left {
+  display: flex;
+  width: 30%;
+}
+
+.name_bar p {
+  margin-left: 2rem;
+}
+
+.lboard-pl {
+  position: absolute;
+  margin: 35%;
+  margin-top: -100px;
+}
+
+img.lboard-pic {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  margin: auto;
+}
+
+hr {
+  color: var(--dark-green);
+  background-color:  var(--dark-green);
+  border-style: none;
+  height: 2px;
 }
