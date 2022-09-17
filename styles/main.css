@@ -300,3 +300,23 @@ h1 {
 .name_bar p {
   margin-left: 2rem;
 }
+
+.lboard-pl {
+  position: absolute;
+  margin: 35%;
+  margin-top: -100px;
+}
+
+img.lboard-pic {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  margin: auto;
+}
+
+hr {
+  color: var(--dark-green);
+  background-color:  var(--dark-green);
+  border-style: none;
+  height: 2px;
+}
