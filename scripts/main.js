@@ -1,4 +1,4 @@
-console.log('banana');
+console.log('og nana');
 
 // Get time since like noon
 const oldTime = 1663430529722;

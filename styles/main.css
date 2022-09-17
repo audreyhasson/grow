@@ -119,7 +119,112 @@ h1 {
 #clock {
   font-size: 150px;
   margin: 0;
+}
 
+.right {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.right h2 {
+  margin: 2px;
+}
+
+.function-buttons {
+  margin: 0 2rem 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.function-buttons p {
+  padding: 1rem;
+  border-radius: 4px;
+  border: 2px solid var(--cream);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.function-buttons p:hover {
+  cursor: pointer;
+}
+
+#water {
+  background-color: #85b7b6;
+}
+
+#rename {
+  background-color: #ab6848;
+  color: var(--cream);
+}
+
+/*watercan stuff */
+.rogue-can, .rogue-water {
+  position: fixed;
+}
+
+.rogue-can img {
+  display: none;
+  width: 225px;
+  margin-left: 340px;
+  margin-top: -40px;
+  animation: none;
+}
+
+@keyframes tiltDown {
+  0% {
+    transform: rotate(0);
+    opacity: 0;
+  }
+  10% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(-45deg)
+  }
+  80% {
+    transform: rotate(0);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rogue-water img {
+  display: none;
+  width: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+  animation: none;
+}
+
+@keyframes dropDown {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  40% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
 }
 
 /* LEAD STYLES */
